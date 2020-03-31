@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import FetchExample from './sections/fetch-example';
+import EjemploCicloActualizacion from './sections/life-cycle/ejemploCicloActualizacion';
 
 
 class App extends Component {
@@ -7,7 +7,7 @@ class App extends Component {
   render(){
   return (
     <div className="App">
-      <FetchExample></FetchExample>
+      <EjemploCicloActualizacion />
     </div>
   );
 }
