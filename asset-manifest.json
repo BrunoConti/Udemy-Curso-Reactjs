@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Udemy-Curso-Reactjs/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/Udemy-Curso-Reactjs/static/js/main.9a32171d.chunk.js",
+    "main.js.map": "/Udemy-Curso-Reactjs/static/js/main.9a32171d.chunk.js.map",
+    "runtime-main.js": "/Udemy-Curso-Reactjs/static/js/runtime-main.8a30ef5a.js",
+    "runtime-main.js.map": "/Udemy-Curso-Reactjs/static/js/runtime-main.8a30ef5a.js.map",
+    "static/js/2.5cb85fa8.chunk.js": "/Udemy-Curso-Reactjs/static/js/2.5cb85fa8.chunk.js",
+    "static/js/2.5cb85fa8.chunk.js.map": "/Udemy-Curso-Reactjs/static/js/2.5cb85fa8.chunk.js.map",
+    "index.html": "/Udemy-Curso-Reactjs/index.html",
+    "precache-manifest.6f61b76a4db410e83c43ad223fada8f0.js": "/Udemy-Curso-Reactjs/precache-manifest.6f61b76a4db410e83c43ad223fada8f0.js",
+    "service-worker.js": "/Udemy-Curso-Reactjs/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/Udemy-Curso-Reactjs/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.5cb85fa8.chunk.js.LICENSE": "/Udemy-Curso-Reactjs/static/js/2.5cb85fa8.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a30ef5a.js",
+    "static/js/2.5cb85fa8.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.9a32171d.chunk.js"
+  ]
+}
