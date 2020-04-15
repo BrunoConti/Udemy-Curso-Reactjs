@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-
-import EjemploDeComponenteWillUnmount from './sections/life-cycle/ejemploComponentWillUnmount';
+import PropTypes from 'prop-types'
+//import EjemploDeComponenteWillUnmount from './sections/life-cycle/ejemploComponentWillUnmount';
 
 
 class Button extends Component {
@@ -43,6 +43,13 @@ function Article(props) {
   )
 }
 
+Article.propTypes = {
+  title: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  children: PropTypes.any
+}
+
 class App extends Component {
   
   render(){
@@ -51,11 +58,13 @@ class App extends Component {
      <h3>Stateless Components</h3>
      <Article 
           title='Articulo sobre la prop children' 
-          author='Bruno Conti'
+          author={'Bruno Conti'}
           date={new Date().toLocaleDateString()}
           >
             <p>Aca deberia estar escrito el articulo Aca deberia estar escrito el articulo Aca deberia estar escrito el articulo Aca deberia estar escrito el articulo Aca deberia estar escrito el articulo Aca deberia estar escrito el articulo Aca deberia estar escrito el articulo Aca deberia estar escrito el articulo</p>
-     </Article> 
+     </Article>
+     <br></br>
+     <Button label='Comentar el Article'></Button>
     </div>
   );
 }
